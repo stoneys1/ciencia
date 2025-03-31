@@ -1,0 +1,18 @@
+.music .box {
+  margin: 20px 20px 15px 15px;
+}
+
+.music img {
+  width: 100%;
+  height: 100%;
+}
+
+.music .text {
+  padding: 20px;
+}
+
+.music .watch {
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+}
