@@ -11,14 +11,16 @@ main .container {
 .sideContent .heading h6 {
   background-color: #000;
 }
+
 @media screen and (max-width: 768px) {
   main .container {
+    display: flex; 
     flex-direction: column;
+    gap: 20px; 
   }
-  .mainContent {
-    width: 100%;
-  }
+
+  .mainContent,
   .sideContent {
-    width: 100%;
+    width: 100%; 
   }
 }

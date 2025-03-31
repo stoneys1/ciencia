@@ -1,33 +1,53 @@
 .tpost .box {
   margin-bottom: 20px;
 }
+
 .tpost .img {
-  width: 100px;
-  height: 80px;
+  width: 100%;
+  height: auto; 
+  max-width: 100px; 
 }
+
 .tpost img {
-  width: 100px;
-  height: 80px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
+  max-width: 100px; 
 }
+
 .tpost .text {
   padding: 0 15px;
 }
+
 .tpost h1 {
   font-size: 15px;
   color: black;
 }
+
 .tpost span {
   font-size: 12px;
   color: grey;
 }
+
+/* Responsividade */
 @media screen and (max-width: 768px) {
   .tpost .img,
   .tpost img {
-    width: 200px;
-    height: 150px;
-  }
-  .tpost .text {
     width: 100%;
+    height: auto; 
+    max-width: 200px;
+  }
+  
+  .tpost .text {
+    width: 100%; 
+    padding: 0 10px; 
+  }
+
+  .tpost h1 {
+    font-size: 14px; 
+  }
+
+  .tpost span {
+    font-size: 11px; 
   }
 }

@@ -23,8 +23,24 @@
   text-transform: uppercase;
   margin: 0;
 }
+
+/* 📱 Ajuste para tablets */
 @media screen and (max-width: 768px) {
   .discover .content {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+/* 📲 Ajuste para celulares */
+@media screen and (max-width: 480px) {
+  .discover .content {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+/* 📱 Ajuste para telas muito pequenas */
+@media screen and (max-width: 320px) {
+  .discover .content {
+    grid-template-columns: repeat(1, 1fr); 
   }
 }

@@ -16,3 +16,15 @@
   font-size: 15px;
   color: black;
 }
+
+
+/* 📱 Responsividade */
+@media screen and (max-width: 768px) {
+  .music .box {
+    margin: 10px; 
+  }
+
+  .music .watch {
+    font-size: 13px; 
+  }
+}
